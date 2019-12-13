@@ -9,10 +9,10 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
-using WebApplication3.Queries;
-using WebApplication3.Services;
+using DM.GraphQlDemo.Queries;
+using DM.GraphQlDemo.Services;
 
-namespace WebApplication3
+namespace DM.GraphQlDemo
 {
     public class Startup
     {

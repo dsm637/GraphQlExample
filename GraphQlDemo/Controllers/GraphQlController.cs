@@ -1,9 +1,9 @@
 ﻿using GraphQL;
 using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
-using WebApplication3.Queries;
+using DM.GraphQlDemo.Queries;
 
-namespace WebApplication3.Controllers
+namespace DM.GraphQlDemo.Controllers
 {
     [Route("/graphql")]
     //[ApiController]

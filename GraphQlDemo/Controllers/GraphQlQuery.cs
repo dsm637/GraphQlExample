@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace WebApplication3.Controllers
+namespace DM.GraphQlDemo.Controllers
 {
     public class GraphQlQuery
     {

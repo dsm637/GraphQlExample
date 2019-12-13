@@ -1,7 +1,7 @@
 ﻿using GraphQL.Types;
-using WebApplication3.Entities;
+using DM.GraphQlDemo.Entities;
 
-namespace WebApplication3.Queries.Types
+namespace DM.GraphQlDemo.Queries.Types
 {
     public class AuthorType : ObjectGraphType<Author>
     {

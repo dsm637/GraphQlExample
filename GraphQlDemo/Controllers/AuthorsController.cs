@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using WebApplication3.Services;
+using DM.GraphQlDemo.Services;
 
-namespace WebApplication3.Controllers
+namespace DM.GraphQlDemo.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
@@ -22,17 +22,17 @@ namespace WebApplication3.Controllers
             return new ObjectResult(blogService.GetAllAuthors());
         }
         [HttpGet("{id}")]
-        public IActionResult GetAuthorById(string id)
+        public IActionResult GetAuthorById(int id)
         {
             return new ObjectResult(blogService.GetAuthorById(id));
         }
         [HttpGet("{id}/posts")]
-        public IActionResult GetPostsByAuthor(string id)
+        public IActionResult GetPostsByAuthor(int id)
         {
             return new ObjectResult(blogService.GetPostsByAuthor(id));
         }
         [HttpGet("{id}/socials")]
-        public IActionResult GetSocialsByAuthor(string id)
+        public IActionResult GetSocialsByAuthor(int id)
         {
             return new ObjectResult(blogService.GetSNsByAuthor(id));
         }

@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace WebApplication3.Entities
+namespace DM.GraphQlDemo.Entities
 {
     public class Author
     {
-        public string Id { get; set; }
+        public int Id { get; set; }
         public string Name { get; set; }
         public string Bio { get; set; }
         public string ImgUrl { get; set; }
@@ -22,7 +22,7 @@ namespace WebApplication3.Entities
 
     public class Post
     {
-        public string Id { get; set; }
+        public int Id { get; set; }
         public string Title { get; set; }
         public string Description { get; set; }
         public DateTime Date { get; set; }

@@ -3,9 +3,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using WebApplication3.Services;
+using DM.GraphQlDemo.Services;
 
-namespace WebApplication3.Queries
+namespace DM.GraphQlDemo.Queries
 {
     public class AuthorSchema : Schema
     {

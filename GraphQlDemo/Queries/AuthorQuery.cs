@@ -1,8 +1,8 @@
 ﻿using GraphQL.Types;
-using WebApplication3.Queries.Types;
-using WebApplication3.Services;
+using DM.GraphQlDemo.Queries.Types;
+using DM.GraphQlDemo.Services;
 
-namespace WebApplication3.Queries
+namespace DM.GraphQlDemo.Queries
 {
     public class AuthorQuery : ObjectGraphType
     {
@@ -13,7 +13,7 @@ namespace WebApplication3.Queries
                 arguments: new QueryArguments(new QueryArgument<StringGraphType> { Name = "id" }),
                 resolve: context =>
                 {
-                    var id = context.GetArgument<string>("id");
+                    var id = context.GetArgument<int>("id");
                     return blogService.GetAuthorById(id);
                 }
             );
@@ -22,7 +22,7 @@ namespace WebApplication3.Queries
                 arguments: new QueryArguments(new QueryArgument<StringGraphType> { Name = "id" }),
                 resolve: context =>
                 {
-                    var id = context.GetArgument<string>("id");
+                    var id = context.GetArgument<int>("id");
                     return blogService.GetPostsByAuthor(id);
                 }
             );
@@ -31,7 +31,7 @@ namespace WebApplication3.Queries
                 arguments: new QueryArguments(new QueryArgument<StringGraphType> { Name = "id" }),
                 resolve: context =>
                 {
-                    var id = context.GetArgument<string>("id");
+                    var id = context.GetArgument<int>("id");
                     return blogService.GetSNsByAuthor(id);
                 }
             );

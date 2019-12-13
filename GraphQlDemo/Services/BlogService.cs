@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using WebApplication3.Entities;
+using DM.GraphQlDemo.Entities;
 
-namespace WebApplication3.Services
+namespace DM.GraphQlDemo.Services
 {
     public class BlogService
     {
@@ -16,7 +16,7 @@ namespace WebApplication3.Services
         {
             Author DinoEsposito = new Author
             {
-                Id = "1",
+                Id = 1,
                 Name = "Dino Esposito",
                 Bio = "Dino Esposito has authored more than 20 books and 1,000 articles in ...",
                 ImgUrl = "https://secure.gravatar.com/avatar/ace158af8dfab0e682dcc70d965514e5?s=80&d=mm&r=g",
@@ -24,7 +24,7 @@ namespace WebApplication3.Services
             };
             Author LanceTalbert = new Author
             {
-                Id = "2",
+                Id = 2,
                 Name = "Lance Talbert",
                 Bio = "Lance Talbert is a budding game developer that has been learning to program since ...",
                 ImgUrl = "https://www.red-gate.com/simple-talk/wp-content/uploads/2018/01/red-gate-bio-pic.jpg",
@@ -44,7 +44,7 @@ namespace WebApplication3.Services
             };
             Post FormsInVanilla = new Post
             {
-                Id = "1",
+                Id = 1,
                 Title = "Building Better HTML Forms in Vanilla-JS",
                 Description = "Creating forms is one of the most basic skills for a web developer...",
                 Date = DateTime.Today,
@@ -55,7 +55,7 @@ namespace WebApplication3.Services
             };
             Post VoiceCommands = new Post
             {
-                Id = "2",
+                Id = 2,
                 Title = "Voice Commands in Unity",
                 Description = "Today, we use voice in many ways. We can order groceries...",
                 Date = DateTime.Today,
@@ -87,15 +87,15 @@ namespace WebApplication3.Services
         {
             return this.authors;
         }
-        public Author GetAuthorById(string id)
+        public Author GetAuthorById(int id)
         {
             return authors.Where(author => author.Id == id).FirstOrDefault<Author>();
         }
-        public List<Post> GetPostsByAuthor(string id)
+        public List<Post> GetPostsByAuthor(int id)
         {
             return posts.Where(post => post.Author.Id == id).ToList<Post>();
         }
-        public List<SocialNetwork> GetSNsByAuthor(string id)
+        public List<SocialNetwork> GetSNsByAuthor(int id)
         {
             return sns.Where(sn => sn.Author.Id == id).ToList<SocialNetwork>();
         }
