@@ -10,12 +10,13 @@ namespace DM.GraphQlDemo.Controllers
     public class GraphQlController : ControllerBase
     {
         //readonly BlogService blogService;
-        readonly AuthorSchema _schema;
+        //readonly AuthorSchema _schema;
+        readonly ReportSchema _reportSchema;
         private readonly IDocumentExecuter _de;
-        public GraphQlController(AuthorSchema schema, IDocumentExecuter de)
+        public GraphQlController(ReportSchema schema, IDocumentExecuter de)
         {
             //this.blogService = blogService;
-            _schema = schema;
+            _reportSchema = schema;
             _de = de;
         }
 
@@ -26,7 +27,7 @@ namespace DM.GraphQlDemo.Controllers
             var q = query.Query;
 
             //var schema = new Schema { Query = new AuthorQuery(blogService) };
-            var schema = _schema;
+            var schema = _reportSchema;// _schema;
             var result = await _de.ExecuteAsync(x =>
             {
                 x.Schema = schema;

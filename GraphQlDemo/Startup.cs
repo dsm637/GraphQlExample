@@ -37,8 +37,10 @@ namespace DM.GraphQlDemo
 
             services.AddSingleton<IDocumentExecuter, DocumentExecuter>();
             services.AddSingleton<IDocumentWriter, DocumentWriter>();
-            services.AddSingleton<AuthorQuery>();
-            services.AddSingleton<AuthorSchema>();
+            //services.AddSingleton<AuthorQuery>();
+            //services.AddSingleton<AuthorSchema>();
+            services.AddSingleton<ReportQuery>();
+            services.AddSingleton<ReportSchema>();
 
             services.Configure<IISServerOptions>(options =>
             {
@@ -60,7 +62,7 @@ namespace DM.GraphQlDemo
             app.UseGraphiQl("/graphiql", GraphQlPath);
             app.UseGraphQLPlayground();
             //app.UseGraphQL<ISchema>(GraphQlPath);
-            app.UseGraphQL<AuthorSchema>(GraphQlPath);
+            app.UseGraphQL<ReportSchema>(GraphQlPath);
             app.UseRouting();
             app.UseAuthorization();
 
