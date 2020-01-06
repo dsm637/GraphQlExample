@@ -1,5 +1,7 @@
+using DM.GraphQlDemo.Queries.Types;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Hosting;
+using System;
 
 namespace DM.GraphQlDemo
 {

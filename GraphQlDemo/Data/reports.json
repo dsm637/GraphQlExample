@@ -1,0 +1,1528 @@
+[
+    {
+        "oid": 1,
+        "name": "Zaam-Dox Report",
+        "description": "Aerified",
+        "columns": [
+            {
+                "oid": 1,
+                "name": "emulation",
+                "description": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti. Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris. Morbi non lectus.",
+                "displayFormat": "%d",
+                "isCalculated": true,
+                "criteria": "GT",
+                "expression": "MAX",
+                "metadata": [
+                    {
+                        "name": "database",
+                        "value": "Mauv"
+                    }
+                ],
+                "propertyRef": {
+                    "oid": 1,
+                    "name": "Customer-focused",
+                    "description": "Maecenas pulvinar lobortis est. Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.",
+                    "value": "dbabc0a2bddd7cdaebbc91cef4adef434f60efa8",
+                    "type": "text"
+                }
+            },
+            {
+                "oid": 2,
+                "name": "systemic",
+                "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus. Pellentesque eget nunc.",
+                "displayFormat": "%s",
+                "isCalculated": false,
+                "criteria": "LE",
+                "expression": "SUM",
+                "metadata": [
+                    {
+                        "name": "Face to face",
+                        "value": "Teal"
+                    }
+                ],
+                "propertyRef": {
+                    "oid": 1,
+                    "name": "user-facing",
+                    "description": "Nulla mollis molestie lorem. Quisque ut erat. Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.",
+                    "value": "3ef1eb635353c7d608cafccfc9d1558ef8fb16ac",
+                    "type": "number"
+                }
+            },
+            {
+                "oid": 3,
+                "name": "regional",
+                "description": "Curabitur gravida nisi at nibh.",
+                "displayFormat": "%d",
+                "isCalculated": false,
+                "criteria": "GE",
+                "expression": "MIN",
+                "metadata": [
+                    {
+                        "name": "orchestration",
+                        "value": "Pink"
+                    }
+                ],
+                "propertyRef": {
+                    "oid": 1,
+                    "name": "mission-critical",
+                    "description": "Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo.",
+                    "value": "0793065167d77d3c27f3af15a4d4ddc169571e8e",
+                    "type": "picklist"
+                }
+            },
+            {
+                "oid": 4,
+                "name": "conglomeration",
+                "description": "In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.",
+                "displayFormat": "%d",
+                "isCalculated": false,
+                "criteria": "LE",
+                "expression": "AVG",
+                "metadata": [
+                    {
+                        "name": "Sharable",
+                        "value": "Aquamarine"
+                    }
+                ],
+                "propertyRef": {
+                    "oid": 1,
+                    "name": "contextually-based",
+                    "description": "In eleifend quam a odio. In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat. Curabitur gravida nisi at nibh. In hac habitasse platea dictumst.",
+                    "value": "b9aadce11db0c5c367557bc9a0c0cdf8bd1c72c4",
+                    "type": "text"
+                }
+            },
+            {
+                "oid": 5,
+                "name": "Mandatory",
+                "description": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est.",
+                "displayFormat": "%f",
+                "isCalculated": true,
+                "criteria": "GE",
+                "expression": "MIN",
+                "metadata": [
+                    {
+                        "name": "Secured",
+                        "value": "Orange"
+                    },
+                    {
+                        "name": "Inverse",
+                        "value": "Violet"
+                    },
+                    {
+                        "name": "utilisation",
+                        "value": "Green"
+                    },
+                    {
+                        "name": "Secured",
+                        "value": "Pink"
+                    }
+                ],
+                "propertyRef": {
+                    "oid": 1,
+                    "name": "structure",
+                    "description": "Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.",
+                    "value": "63125eecc8746cc7dc4b06c3c03752a3a8ca6fac",
+                    "type": "date"
+                }
+            }
+        ]
+    },
+    {
+        "oid": 2,
+        "name": "Alphazap Report",
+        "description": "Lotlux",
+        "columns": [
+            {
+                "oid": 6,
+                "name": "Configurable",
+                "description": "Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh. In quis justo. Maecenas rhoncus aliquam lacus.",
+                "displayFormat": "%d",
+                "isCalculated": false,
+                "criteria": "GT",
+                "expression": "MAX",
+                "metadata": [
+                    {
+                        "name": "superstructure",
+                        "value": "Yellow"
+                    },
+                    {
+                        "name": "eco-centric",
+                        "value": "Teal"
+                    },
+                    {
+                        "name": "initiative",
+                        "value": "Mauv"
+                    }
+                ],
+                "propertyRef": {
+                    "oid": 1,
+                    "name": "instruction set",
+                    "description": "Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem. Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus. Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.",
+                    "value": "0e2facaeccd05d3bde7f1bce80dc4054146e327e",
+                    "type": "text"
+                }
+            },
+            {
+                "oid": 7,
+                "name": "Sharable",
+                "description": "Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl.",
+                "displayFormat": "%d",
+                "isCalculated": true,
+                "criteria": "GE",
+                "expression": "MIN",
+                "metadata": [
+                    {
+                        "name": "actuating",
+                        "value": "Green"
+                    },
+                    {
+                        "name": "24/7",
+                        "value": "Yellow"
+                    },
+                    {
+                        "name": "flexibility",
+                        "value": "Indigo"
+                    },
+                    {
+                        "name": "background",
+                        "value": "Pink"
+                    },
+                    {
+                        "name": "3rd generation",
+                        "value": "Teal"
+                    }
+                ],
+                "propertyRef": {
+                    "oid": 1,
+                    "name": "asynchronous",
+                    "description": "Aliquam non mauris. Morbi non lectus.",
+                    "value": "1252fd278d4dfbad22f2be0bc00bd2f650a989c3",
+                    "type": "text"
+                }
+            },
+            {
+                "oid": 8,
+                "name": "full-range",
+                "description": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque. Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus. In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti. In eleifend quam a odio.",
+                "displayFormat": "%s",
+                "isCalculated": true,
+                "criteria": "EQ",
+                "expression": "AVG",
+                "metadata": [
+                    {
+                        "name": "national",
+                        "value": "Fuscia"
+                    },
+                    {
+                        "name": "multi-tasking",
+                        "value": "Fuscia"
+                    },
+                    {
+                        "name": "Decentralized",
+                        "value": "Violet"
+                    },
+                    {
+                        "name": "Synchronised",
+                        "value": "Teal"
+                    },
+                    {
+                        "name": "Re-contextualized",
+                        "value": "Purple"
+                    }
+                ],
+                "propertyRef": {
+                    "oid": 1,
+                    "name": "workforce",
+                    "description": "Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam.",
+                    "value": "b7d04e7ecc43e17fa4a068ddd1e82da985f048fc",
+                    "type": "date"
+                }
+            },
+            {
+                "oid": 9,
+                "name": "Reverse-engineered",
+                "description": "Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.",
+                "displayFormat": "%f",
+                "isCalculated": false,
+                "criteria": "GE",
+                "expression": "AVG",
+                "metadata": [
+                    {
+                        "name": "encoding",
+                        "value": "Aquamarine"
+                    },
+                    {
+                        "name": "Configurable",
+                        "value": "Maroon"
+                    },
+                    {
+                        "name": "tangible",
+                        "value": "Indigo"
+                    }
+                ],
+                "propertyRef": {
+                    "oid": 1,
+                    "name": "empowering",
+                    "description": "Mauris sit amet eros. Suspendisse accumsan tortor quis turpis. Sed ante. Vivamus tortor.",
+                    "value": "2de5fe7a3952e1389e0430c3ac49d5bb4b080cdd",
+                    "type": "text"
+                }
+            },
+            {
+                "oid": 10,
+                "name": "Profit-focused",
+                "description": "Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum.",
+                "displayFormat": "%f",
+                "isCalculated": false,
+                "criteria": "GE",
+                "expression": "MAX",
+                "metadata": [
+                    {
+                        "name": "Extended",
+                        "value": "Yellow"
+                    },
+                    {
+                        "name": "instruction set",
+                        "value": "Orange"
+                    },
+                    {
+                        "name": "conglomeration",
+                        "value": "Indigo"
+                    }
+                ],
+                "propertyRef": {
+                    "oid": 1,
+                    "name": "scalable",
+                    "description": "Phasellus in felis. Donec semper sapien a libero. Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis.",
+                    "value": "ef0167fd186c4a5d5d801c81c0d8a2a2a0328486",
+                    "type": "date"
+                }
+            }
+        ]
+    },
+    {
+        "oid": 3,
+        "name": "Temp Report",
+        "description": "Hatity",
+        "columns": [
+            {
+                "oid": 11,
+                "name": "Pre-emptive",
+                "description": "Vestibulum sed magna at nunc commodo placerat. Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.",
+                "displayFormat": "%f",
+                "isCalculated": false,
+                "criteria": "LE",
+                "expression": "AVG",
+                "metadata": [
+                    {
+                        "name": "Exclusive",
+                        "value": "Mauv"
+                    }
+                ],
+                "propertyRef": {
+                    "oid": 1,
+                    "name": "5th generation",
+                    "description": "Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti.",
+                    "value": "bf943da983f326811cf7d3f7f9fe88540a5aec7f",
+                    "type": "number"
+                }
+            },
+            {
+                "oid": 12,
+                "name": "Focused",
+                "description": "Donec posuere metus vitae ipsum.",
+                "displayFormat": "%f",
+                "isCalculated": true,
+                "criteria": "LE",
+                "expression": "MAX",
+                "metadata": [
+                    {
+                        "name": "forecast",
+                        "value": "Violet"
+                    },
+                    {
+                        "name": "definition",
+                        "value": "Green"
+                    },
+                    {
+                        "name": "value-added",
+                        "value": "Violet"
+                    },
+                    {
+                        "name": "Graphical User Interface",
+                        "value": "Pink"
+                    }
+                ],
+                "propertyRef": {
+                    "oid": 1,
+                    "name": "application",
+                    "description": "Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue.",
+                    "value": "f07f1a1dd3a9a6215afe3b98de7dbbee20e1af65",
+                    "type": "text"
+                }
+            },
+            {
+                "oid": 13,
+                "name": "Sharable",
+                "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus. Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.",
+                "displayFormat": "%f",
+                "isCalculated": false,
+                "criteria": "LE",
+                "expression": "SUM",
+                "metadata": [
+                    {
+                        "name": "modular",
+                        "value": "Red"
+                    },
+                    {
+                        "name": "executive",
+                        "value": "Teal"
+                    },
+                    {
+                        "name": "standardization",
+                        "value": "Teal"
+                    },
+                    {
+                        "name": "Multi-layered",
+                        "value": "Green"
+                    }
+                ],
+                "propertyRef": {
+                    "oid": 1,
+                    "name": "capability",
+                    "description": "In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat. Nulla nisl. Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa.",
+                    "value": "45b86d3567527055f01498fa01d8971cb405e601",
+                    "type": "number"
+                }
+            },
+            {
+                "oid": 14,
+                "name": "3rd generation",
+                "description": "Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque. Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus. In sagittis dui vel nisl. Duis ac nibh.",
+                "displayFormat": "%s",
+                "isCalculated": false,
+                "criteria": "LT",
+                "expression": "MAX",
+                "metadata": [
+                    {
+                        "name": "methodology",
+                        "value": "Goldenrod"
+                    },
+                    {
+                        "name": "local area network",
+                        "value": "Crimson"
+                    },
+                    {
+                        "name": "Profound",
+                        "value": "Mauv"
+                    }
+                ],
+                "propertyRef": {
+                    "oid": 1,
+                    "name": "Multi-channelled",
+                    "description": "Donec semper sapien a libero. Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis.",
+                    "value": "dec9caf47fc012abca61178e7442357863bfe5d2",
+                    "type": "picklist"
+                }
+            },
+            {
+                "oid": 15,
+                "name": "Ameliorated",
+                "description": "Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+                "displayFormat": "%f",
+                "isCalculated": false,
+                "criteria": "LE",
+                "expression": "MAX",
+                "metadata": [
+                    {
+                        "name": "dedicated",
+                        "value": "Maroon"
+                    },
+                    {
+                        "name": "artificial intelligence",
+                        "value": "Orange"
+                    },
+                    {
+                        "name": "Synergized",
+                        "value": "Purple"
+                    },
+                    {
+                        "name": "Re-engineered",
+                        "value": "Purple"
+                    },
+                    {
+                        "name": "utilisation",
+                        "value": "Violet"
+                    }
+                ],
+                "propertyRef": {
+                    "oid": 1,
+                    "name": "Up-sized",
+                    "description": "Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est. Phasellus sit amet erat.",
+                    "value": "ec696531d80cf7ac92d6aa01ee8ca34ff80d8463",
+                    "type": "picklist"
+                }
+            }
+        ]
+    },
+    {
+        "oid": 4,
+        "name": "Asoka Report",
+        "description": "Tin",
+        "columns": [
+            {
+                "oid": 16,
+                "name": "strategy",
+                "description": "Nulla mollis molestie lorem. Quisque ut erat. Curabitur gravida nisi at nibh.",
+                "displayFormat": "%d",
+                "isCalculated": false,
+                "criteria": "LT",
+                "expression": "AVG",
+                "metadata": [
+                    {
+                        "name": "Inverse",
+                        "value": "Teal"
+                    },
+                    {
+                        "name": "bottom-line",
+                        "value": "Fuscia"
+                    },
+                    {
+                        "name": "Integrated",
+                        "value": "Aquamarine"
+                    }
+                ],
+                "propertyRef": {
+                    "oid": 1,
+                    "name": "Optimized",
+                    "description": "Nulla facilisi. Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.",
+                    "value": "58435a840a7fe14de0fe982f8e0e68bbcf4d098d",
+                    "type": "text"
+                }
+            },
+            {
+                "oid": 17,
+                "name": "Ameliorated",
+                "description": "Suspendisse accumsan tortor quis turpis. Sed ante. Vivamus tortor. Duis mattis egestas metus. Aenean fermentum. Donec ut mauris eget massa tempor convallis.",
+                "displayFormat": "%f",
+                "isCalculated": true,
+                "criteria": "LE",
+                "expression": "MIN",
+                "metadata": [
+                    {
+                        "name": "24/7",
+                        "value": "Aquamarine"
+                    }
+                ],
+                "propertyRef": {
+                    "oid": 1,
+                    "name": "Self-enabling",
+                    "description": "Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia.",
+                    "value": "f80232f0dc55400a6ad0733342203f050a11f0b3",
+                    "type": "picklist"
+                }
+            },
+            {
+                "oid": 18,
+                "name": "User-centric",
+                "description": "Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.",
+                "displayFormat": "%s",
+                "isCalculated": false,
+                "criteria": "EQ",
+                "expression": "SUM",
+                "metadata": [
+                    {
+                        "name": "hierarchy",
+                        "value": "Aquamarine"
+                    },
+                    {
+                        "name": "full-range",
+                        "value": "Puce"
+                    },
+                    {
+                        "name": "parallelism",
+                        "value": "Orange"
+                    },
+                    {
+                        "name": "flexibility",
+                        "value": "Teal"
+                    },
+                    {
+                        "name": "impactful",
+                        "value": "Fuscia"
+                    }
+                ],
+                "propertyRef": {
+                    "oid": 1,
+                    "name": "infrastructure",
+                    "description": "Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+                    "value": "2c0e3a7d47182fcf02e6ebc52fdc2b111856cadf",
+                    "type": "picklist"
+                }
+            },
+            {
+                "oid": 19,
+                "name": "matrix",
+                "description": "Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.",
+                "displayFormat": "%d",
+                "isCalculated": true,
+                "criteria": "GE",
+                "expression": "SUM",
+                "metadata": [
+                    {
+                        "name": "interactive",
+                        "value": "Blue"
+                    },
+                    {
+                        "name": "hardware",
+                        "value": "Orange"
+                    },
+                    {
+                        "name": "Cross-group",
+                        "value": "Turquoise"
+                    },
+                    {
+                        "name": "Graphic Interface",
+                        "value": "Orange"
+                    },
+                    {
+                        "name": "budgetary management",
+                        "value": "Purple"
+                    }
+                ],
+                "propertyRef": {
+                    "oid": 1,
+                    "name": "Re-engineered",
+                    "description": "Etiam vel augue. Vestibulum rutrum rutrum neque.",
+                    "value": "2fc298f25f57902048bd433c72974408d6af94a2",
+                    "type": "picklist"
+                }
+            },
+            {
+                "oid": 20,
+                "name": "methodology",
+                "description": "Phasellus in felis. Donec semper sapien a libero. Nam dui.",
+                "displayFormat": "%s",
+                "isCalculated": false,
+                "criteria": "LE",
+                "expression": "MAX",
+                "metadata": [
+                    {
+                        "name": "radical",
+                        "value": "Teal"
+                    },
+                    {
+                        "name": "artificial intelligence",
+                        "value": "Orange"
+                    },
+                    {
+                        "name": "Open-source",
+                        "value": "Violet"
+                    },
+                    {
+                        "name": "array",
+                        "value": "Aquamarine"
+                    },
+                    {
+                        "name": "matrix",
+                        "value": "Fuscia"
+                    }
+                ],
+                "propertyRef": {
+                    "oid": 1,
+                    "name": "pricing structure",
+                    "description": "Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+                    "value": "d4bc434993605bf9a5d509cb5b550778b6af0f86",
+                    "type": "number"
+                }
+            }
+        ]
+    },
+    {
+        "oid": 5,
+        "name": "Andalax Report",
+        "description": "Kanlam",
+        "columns": [
+            {
+                "oid": 21,
+                "name": "leading edge",
+                "description": "Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim.",
+                "displayFormat": "%f",
+                "isCalculated": true,
+                "criteria": "LT",
+                "expression": "SUM",
+                "metadata": [
+                    {
+                        "name": "hardware",
+                        "value": "Khaki"
+                    },
+                    {
+                        "name": "interface",
+                        "value": "Khaki"
+                    }
+                ],
+                "propertyRef": {
+                    "oid": 1,
+                    "name": "encompassing",
+                    "description": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti. Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum.",
+                    "value": "3df6972813debad34c8873e6167681a4b521b8e2",
+                    "type": "text"
+                }
+            },
+            {
+                "oid": 22,
+                "name": "service-desk",
+                "description": "Nulla nisl. Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum. In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo. Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros.",
+                "displayFormat": "%s",
+                "isCalculated": true,
+                "criteria": "LE",
+                "expression": "MIN",
+                "metadata": [
+                    {
+                        "name": "Graphic Interface",
+                        "value": "Green"
+                    },
+                    {
+                        "name": "Polarised",
+                        "value": "Red"
+                    },
+                    {
+                        "name": "grid-enabled",
+                        "value": "Violet"
+                    },
+                    {
+                        "name": "solution",
+                        "value": "Aquamarine"
+                    },
+                    {
+                        "name": "dynamic",
+                        "value": "Red"
+                    }
+                ],
+                "propertyRef": {
+                    "oid": 1,
+                    "name": "upward-trending",
+                    "description": "Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat.",
+                    "value": "2fbd682c67bc6ffb83222ecd0b15b693626b5779",
+                    "type": "picklist"
+                }
+            },
+            {
+                "oid": 23,
+                "name": "context-sensitive",
+                "description": "Sed accumsan felis. Ut at dolor quis odio consequat varius. Integer ac leo. Pellentesque ultrices mattis odio.",
+                "displayFormat": "%s",
+                "isCalculated": true,
+                "criteria": "LT",
+                "expression": "MIN",
+                "metadata": [
+                    {
+                        "name": "asynchronous",
+                        "value": "Khaki"
+                    },
+                    {
+                        "name": "standardization",
+                        "value": "Fuscia"
+                    }
+                ],
+                "propertyRef": {
+                    "oid": 1,
+                    "name": "capability",
+                    "description": "In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc.",
+                    "value": "41ed56806bf3a3aa8ad1c0a85d86c022d8e9e046",
+                    "type": "date"
+                }
+            },
+            {
+                "oid": 24,
+                "name": "array",
+                "description": "Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum. In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo. Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.",
+                "displayFormat": "%f",
+                "isCalculated": false,
+                "criteria": "GT",
+                "expression": "AVG",
+                "metadata": [
+                    {
+                        "name": "Upgradable",
+                        "value": "Purple"
+                    }
+                ],
+                "propertyRef": {
+                    "oid": 1,
+                    "name": "foreground",
+                    "description": "Nulla facilisi. Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat.",
+                    "value": "ef8d27505441f2436d728802239ee1cd3379f532",
+                    "type": "text"
+                }
+            },
+            {
+                "oid": 25,
+                "name": "multi-tasking",
+                "description": "Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus. Phasellus in felis. Donec semper sapien a libero. Nam dui.",
+                "displayFormat": "%d",
+                "isCalculated": false,
+                "criteria": "LT",
+                "expression": "MAX",
+                "metadata": [
+                    {
+                        "name": "database",
+                        "value": "Crimson"
+                    },
+                    {
+                        "name": "collaboration",
+                        "value": "Goldenrod"
+                    },
+                    {
+                        "name": "instruction set",
+                        "value": "Khaki"
+                    }
+                ],
+                "propertyRef": {
+                    "oid": 1,
+                    "name": "maximized",
+                    "description": "Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis. Sed ante. Vivamus tortor. Duis mattis egestas metus.",
+                    "value": "284fc61bec380f15613feb553d67f8b5dc3d1549",
+                    "type": "picklist"
+                }
+            }
+        ]
+    },
+    {
+        "oid": 6,
+        "name": "Stronghold Report",
+        "description": "Cardify",
+        "columns": [
+            {
+                "oid": 26,
+                "name": "interactive",
+                "description": "Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus. Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+                "displayFormat": "%f",
+                "isCalculated": true,
+                "criteria": "LT",
+                "expression": "SUM",
+                "metadata": [
+                    {
+                        "name": "Implemented",
+                        "value": "Teal"
+                    }
+                ],
+                "propertyRef": {
+                    "oid": 1,
+                    "name": "leading edge",
+                    "description": "Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo.",
+                    "value": "1475b078e11e7e5df0626e476e16ae1cadb28459",
+                    "type": "text"
+                }
+            },
+            {
+                "oid": 27,
+                "name": "Reverse-engineered",
+                "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus. Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis.",
+                "displayFormat": "%f",
+                "isCalculated": false,
+                "criteria": "GT",
+                "expression": "AVG",
+                "metadata": [
+                    {
+                        "name": "implementation",
+                        "value": "Mauv"
+                    },
+                    {
+                        "name": "modular",
+                        "value": "Aquamarine"
+                    }
+                ],
+                "propertyRef": {
+                    "oid": 1,
+                    "name": "multimedia",
+                    "description": "Phasellus sit amet erat. Nulla tempus.",
+                    "value": "1777bd387b3e866d062bc819478086f5782ee5a6",
+                    "type": "number"
+                }
+            },
+            {
+                "oid": 28,
+                "name": "Down-sized",
+                "description": "Maecenas pulvinar lobortis est. Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum. Proin eu mi. Nulla ac enim.",
+                "displayFormat": "%d",
+                "isCalculated": true,
+                "criteria": "EQ",
+                "expression": "AVG",
+                "metadata": [
+                    {
+                        "name": "archive",
+                        "value": "Fuscia"
+                    },
+                    {
+                        "name": "web-enabled",
+                        "value": "Green"
+                    },
+                    {
+                        "name": "Enhanced",
+                        "value": "Pink"
+                    },
+                    {
+                        "name": "client-server",
+                        "value": "Aquamarine"
+                    },
+                    {
+                        "name": "Enterprise-wide",
+                        "value": "Teal"
+                    }
+                ],
+                "propertyRef": {
+                    "oid": 1,
+                    "name": "Cross-platform",
+                    "description": "Aliquam non mauris. Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet.",
+                    "value": "4ffeea18f2bbd74185c39a68ace30bca7cc22bd7",
+                    "type": "picklist"
+                }
+            },
+            {
+                "oid": 29,
+                "name": "implementation",
+                "description": "Aenean lectus. Pellentesque eget nunc.",
+                "displayFormat": "%f",
+                "isCalculated": false,
+                "criteria": "GE",
+                "expression": "MAX",
+                "metadata": [
+                    {
+                        "name": "impactful",
+                        "value": "Purple"
+                    },
+                    {
+                        "name": "open system",
+                        "value": "Crimson"
+                    },
+                    {
+                        "name": "non-volatile",
+                        "value": "Blue"
+                    },
+                    {
+                        "name": "Automated",
+                        "value": "Goldenrod"
+                    }
+                ],
+                "propertyRef": {
+                    "oid": 1,
+                    "name": "firmware",
+                    "description": "Suspendisse potenti. Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris. Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl.",
+                    "value": "c1f5c5846ae91e420d9c25321fc9f5756510f461",
+                    "type": "date"
+                }
+            },
+            {
+                "oid": 30,
+                "name": "throughput",
+                "description": "Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus. In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.",
+                "displayFormat": "%f",
+                "isCalculated": true,
+                "criteria": "GE",
+                "expression": "AVG",
+                "metadata": [
+                    {
+                        "name": "Optional",
+                        "value": "Puce"
+                    },
+                    {
+                        "name": "client-driven",
+                        "value": "Turquoise"
+                    },
+                    {
+                        "name": "Expanded",
+                        "value": "Maroon"
+                    }
+                ],
+                "propertyRef": {
+                    "oid": 1,
+                    "name": "Reactive",
+                    "description": "Sed accumsan felis. Ut at dolor quis odio consequat varius. Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus. Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla.",
+                    "value": "0b22d1e2fa97c5cbc8f7c32d142b5aa40219f7d7",
+                    "type": "text"
+                }
+            }
+        ]
+    },
+    {
+        "oid": 7,
+        "name": "Bitchip Report",
+        "description": "Wrapsafe",
+        "columns": [
+            {
+                "oid": 31,
+                "name": "De-engineered",
+                "description": "Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus. Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla.",
+                "displayFormat": "%d",
+                "isCalculated": true,
+                "criteria": "LE",
+                "expression": "MAX",
+                "metadata": [
+                    {
+                        "name": "object-oriented",
+                        "value": "Fuscia"
+                    }
+                ],
+                "propertyRef": {
+                    "oid": 1,
+                    "name": "Stand-alone",
+                    "description": "Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti. Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.",
+                    "value": "25b5c34d7073b921cdcc43d8014526cbc58d0929",
+                    "type": "text"
+                }
+            },
+            {
+                "oid": 32,
+                "name": "function",
+                "description": "Donec semper sapien a libero. Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla.",
+                "displayFormat": "%d",
+                "isCalculated": false,
+                "criteria": "GE",
+                "expression": "MAX",
+                "metadata": [
+                    {
+                        "name": "website",
+                        "value": "Red"
+                    }
+                ],
+                "propertyRef": {
+                    "oid": 1,
+                    "name": "responsive",
+                    "description": "In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis.",
+                    "value": "c924cc5f6c1122aa9e898616f8c14d311711458d",
+                    "type": "text"
+                }
+            },
+            {
+                "oid": 33,
+                "name": "24 hour",
+                "description": "Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem. Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus. Pellentesque at nulla. Suspendisse potenti.",
+                "displayFormat": "%f",
+                "isCalculated": true,
+                "criteria": "LT",
+                "expression": "SUM",
+                "metadata": [
+                    {
+                        "name": "paradigm",
+                        "value": "Puce"
+                    },
+                    {
+                        "name": "leading edge",
+                        "value": "Purple"
+                    },
+                    {
+                        "name": "bandwidth-monitored",
+                        "value": "Fuscia"
+                    },
+                    {
+                        "name": "neutral",
+                        "value": "Violet"
+                    }
+                ],
+                "propertyRef": {
+                    "oid": 1,
+                    "name": "User-friendly",
+                    "description": "Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.",
+                    "value": "ccc641e1fd33e1ef0ec278edcb3cb7ac8169bc2b",
+                    "type": "picklist"
+                }
+            },
+            {
+                "oid": 34,
+                "name": "Horizontal",
+                "description": "Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti. Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum.",
+                "displayFormat": "%s",
+                "isCalculated": true,
+                "criteria": "GE",
+                "expression": "MIN",
+                "metadata": [
+                    {
+                        "name": "Profit-focused",
+                        "value": "Yellow"
+                    }
+                ],
+                "propertyRef": {
+                    "oid": 1,
+                    "name": "Grass-roots",
+                    "description": "In congue. Etiam justo. Etiam pretium iaculis justo. In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.",
+                    "value": "874341704f27227d33ba6241b04275873b0c5aae",
+                    "type": "date"
+                }
+            },
+            {
+                "oid": 35,
+                "name": "Sharable",
+                "description": "Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat.",
+                "displayFormat": "%s",
+                "isCalculated": true,
+                "criteria": "GE",
+                "expression": "MIN",
+                "metadata": [
+                    {
+                        "name": "pricing structure",
+                        "value": "Crimson"
+                    },
+                    {
+                        "name": "global",
+                        "value": "Goldenrod"
+                    },
+                    {
+                        "name": "grid-enabled",
+                        "value": "Fuscia"
+                    }
+                ],
+                "propertyRef": {
+                    "oid": 1,
+                    "name": "implementation",
+                    "description": "Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat. In congue. Etiam justo. Etiam pretium iaculis justo. In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus. Nulla ut erat id mauris vulputate elementum.",
+                    "value": "0f6d548e15a9216c2beddcd172660c5ca56fce5d",
+                    "type": "date"
+                }
+            }
+        ]
+    },
+    {
+        "oid": 8,
+        "name": "Stim Report",
+        "description": "Latlux",
+        "columns": [
+            {
+                "oid": 36,
+                "name": "Phased",
+                "description": "Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat. In congue. Etiam justo. Etiam pretium iaculis justo. In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.",
+                "displayFormat": "%s",
+                "isCalculated": true,
+                "criteria": "EQ",
+                "expression": "MIN",
+                "metadata": [
+                    {
+                        "name": "Secured",
+                        "value": "Khaki"
+                    },
+                    {
+                        "name": "Seamless",
+                        "value": "Purple"
+                    }
+                ],
+                "propertyRef": {
+                    "oid": 1,
+                    "name": "Vision-oriented",
+                    "description": "Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat. In congue. Etiam justo. Etiam pretium iaculis justo. In hac habitasse platea dictumst.",
+                    "value": "dc2329f68f146cf59f0eeff362f4f638266e43c9",
+                    "type": "number"
+                }
+            },
+            {
+                "oid": 37,
+                "name": "didactic",
+                "description": "Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis.",
+                "displayFormat": "%s",
+                "isCalculated": true,
+                "criteria": "LE",
+                "expression": "MIN",
+                "metadata": [
+                    {
+                        "name": "value-added",
+                        "value": "Maroon"
+                    },
+                    {
+                        "name": "middleware",
+                        "value": "Purple"
+                    },
+                    {
+                        "name": "neutral",
+                        "value": "Red"
+                    }
+                ],
+                "propertyRef": {
+                    "oid": 1,
+                    "name": "Re-engineered",
+                    "description": "Quisque ut erat. Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat. Praesent blandit. Nam nulla.",
+                    "value": "5b1b6f1056d26347447fd24f1244151ee0e89f94",
+                    "type": "date"
+                }
+            },
+            {
+                "oid": 38,
+                "name": "Polarised",
+                "description": "Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est. Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum. Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.",
+                "displayFormat": "%s",
+                "isCalculated": true,
+                "criteria": "GT",
+                "expression": "SUM",
+                "metadata": [
+                    {
+                        "name": "policy",
+                        "value": "Red"
+                    },
+                    {
+                        "name": "real-time",
+                        "value": "Goldenrod"
+                    }
+                ],
+                "propertyRef": {
+                    "oid": 1,
+                    "name": "analyzer",
+                    "description": "Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti. Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum.",
+                    "value": "963dbada99ea9e959f68677c70a273332d26b2bb",
+                    "type": "picklist"
+                }
+            },
+            {
+                "oid": 39,
+                "name": "tertiary",
+                "description": "Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus. Phasellus in felis. Donec semper sapien a libero. Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.",
+                "displayFormat": "%s",
+                "isCalculated": true,
+                "criteria": "EQ",
+                "expression": "MAX",
+                "metadata": [
+                    {
+                        "name": "background",
+                        "value": "Pink"
+                    },
+                    {
+                        "name": "approach",
+                        "value": "Teal"
+                    },
+                    {
+                        "name": "task-force",
+                        "value": "Yellow"
+                    }
+                ],
+                "propertyRef": {
+                    "oid": 1,
+                    "name": "systemic",
+                    "description": "Donec dapibus.",
+                    "value": "f6255e07f57de6bfb9fcf63a595689acc07ea78f",
+                    "type": "text"
+                }
+            },
+            {
+                "oid": 40,
+                "name": "Inverse",
+                "description": "Fusce consequat. Nulla nisl. Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.",
+                "displayFormat": "%f",
+                "isCalculated": true,
+                "criteria": "GE",
+                "expression": "AVG",
+                "metadata": [
+                    {
+                        "name": "secondary",
+                        "value": "Maroon"
+                    },
+                    {
+                        "name": "coherent",
+                        "value": "Teal"
+                    },
+                    {
+                        "name": "Graphical User Interface",
+                        "value": "Violet"
+                    },
+                    {
+                        "name": "fresh-thinking",
+                        "value": "Purple"
+                    }
+                ],
+                "propertyRef": {
+                    "oid": 1,
+                    "name": "didactic",
+                    "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus. Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio.",
+                    "value": "40e44055e99c47cd2bdc129ab9f756bf4ebb6ced",
+                    "type": "text"
+                }
+            }
+        ]
+    },
+    {
+        "oid": 9,
+        "name": "Flowdesk Report",
+        "description": "Bamity",
+        "columns": [
+            {
+                "oid": 41,
+                "name": "upward-trending",
+                "description": "Ut at dolor quis odio consequat varius.",
+                "displayFormat": "%d",
+                "isCalculated": true,
+                "criteria": "GT",
+                "expression": "MAX",
+                "metadata": [
+                    {
+                        "name": "open architecture",
+                        "value": "Green"
+                    },
+                    {
+                        "name": "methodical",
+                        "value": "Indigo"
+                    },
+                    {
+                        "name": "Future-proofed",
+                        "value": "Pink"
+                    },
+                    {
+                        "name": "database",
+                        "value": "Blue"
+                    }
+                ],
+                "propertyRef": {
+                    "oid": 1,
+                    "name": "Enhanced",
+                    "description": "Praesent blandit lacinia erat.",
+                    "value": "b72d489d7a4920ce366d095b698728ce513e7951",
+                    "type": "text"
+                }
+            },
+            {
+                "oid": 42,
+                "name": "capacity",
+                "description": "Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum.",
+                "displayFormat": "%f",
+                "isCalculated": false,
+                "criteria": "GT",
+                "expression": "MIN",
+                "metadata": [
+                    {
+                        "name": "object-oriented",
+                        "value": "Purple"
+                    }
+                ],
+                "propertyRef": {
+                    "oid": 1,
+                    "name": "zero administration",
+                    "description": "Praesent lectus.",
+                    "value": "06752c69445ecad530508f45b7ea40a3668c3369",
+                    "type": "text"
+                }
+            },
+            {
+                "oid": 43,
+                "name": "Upgradable",
+                "description": "Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl.",
+                "displayFormat": "%d",
+                "isCalculated": true,
+                "criteria": "LE",
+                "expression": "MIN",
+                "metadata": [
+                    {
+                        "name": "global",
+                        "value": "Purple"
+                    },
+                    {
+                        "name": "Re-contextualized",
+                        "value": "Khaki"
+                    }
+                ],
+                "propertyRef": {
+                    "oid": 1,
+                    "name": "analyzer",
+                    "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus. Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor.",
+                    "value": "09daee3cb108654b3c7323d9b52d03cad0879349",
+                    "type": "date"
+                }
+            },
+            {
+                "oid": 44,
+                "name": "methodical",
+                "description": "Nullam molestie nibh in lectus. Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien.",
+                "displayFormat": "%s",
+                "isCalculated": false,
+                "criteria": "LE",
+                "expression": "MIN",
+                "metadata": [
+                    {
+                        "name": "ability",
+                        "value": "Turquoise"
+                    },
+                    {
+                        "name": "Future-proofed",
+                        "value": "Orange"
+                    },
+                    {
+                        "name": "Profit-focused",
+                        "value": "Maroon"
+                    },
+                    {
+                        "name": "archive",
+                        "value": "Red"
+                    },
+                    {
+                        "name": "implementation",
+                        "value": "Khaki"
+                    }
+                ],
+                "propertyRef": {
+                    "oid": 1,
+                    "name": "Horizontal",
+                    "description": "Suspendisse potenti. Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia.",
+                    "value": "8ce4a55109583e1e4ed36fb59c3fc01bdbc50061",
+                    "type": "picklist"
+                }
+            },
+            {
+                "oid": 45,
+                "name": "monitoring",
+                "description": "Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus. Phasellus in felis. Donec semper sapien a libero. Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius. Integer ac leo.",
+                "displayFormat": "%f",
+                "isCalculated": true,
+                "criteria": "EQ",
+                "expression": "SUM",
+                "metadata": [
+                    {
+                        "name": "Reduced",
+                        "value": "Green"
+                    }
+                ],
+                "propertyRef": {
+                    "oid": 1,
+                    "name": "neural-net",
+                    "description": "Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum.",
+                    "value": "b1f703d58f04a078825509408f38b64cae0c5654",
+                    "type": "date"
+                }
+            }
+        ]
+    },
+    {
+        "oid": 10,
+        "name": "Home Ing Report",
+        "description": "Bamity",
+        "columns": [
+            {
+                "oid": 46,
+                "name": "dedicated",
+                "description": "Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat.",
+                "displayFormat": "%s",
+                "isCalculated": false,
+                "criteria": "LT",
+                "expression": "MIN",
+                "metadata": [
+                    {
+                        "name": "Adaptive",
+                        "value": "Red"
+                    }
+                ],
+                "propertyRef": {
+                    "oid": 1,
+                    "name": "neutral",
+                    "description": "In eleifend quam a odio. In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat. Curabitur gravida nisi at nibh.",
+                    "value": "40610faef6e57f1ebc3e9809ecbbd5b575975d7d",
+                    "type": "text"
+                }
+            },
+            {
+                "oid": 47,
+                "name": "Enterprise-wide",
+                "description": "Ut at dolor quis odio consequat varius. Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus. Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.",
+                "displayFormat": "%s",
+                "isCalculated": true,
+                "criteria": "LE",
+                "expression": "AVG",
+                "metadata": [
+                    {
+                        "name": "orchestration",
+                        "value": "Mauv"
+                    }
+                ],
+                "propertyRef": {
+                    "oid": 1,
+                    "name": "context-sensitive",
+                    "description": "Pellentesque at nulla.",
+                    "value": "a7d4cbd40e61ef4d373f3187461091cbc0dc19ad",
+                    "type": "picklist"
+                }
+            },
+            {
+                "oid": 48,
+                "name": "Graphic Interface",
+                "description": "Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis.",
+                "displayFormat": "%d",
+                "isCalculated": true,
+                "criteria": "GT",
+                "expression": "AVG",
+                "metadata": [
+                    {
+                        "name": "moderator",
+                        "value": "Yellow"
+                    },
+                    {
+                        "name": "24/7",
+                        "value": "Crimson"
+                    },
+                    {
+                        "name": "logistical",
+                        "value": "Aquamarine"
+                    }
+                ],
+                "propertyRef": {
+                    "oid": 1,
+                    "name": "service-desk",
+                    "description": "Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem. Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.",
+                    "value": "27435095fe59809cdd13f4da2f5e1d01ed3f296d",
+                    "type": "date"
+                }
+            },
+            {
+                "oid": 49,
+                "name": "Automated",
+                "description": "In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis.",
+                "displayFormat": "%f",
+                "isCalculated": false,
+                "criteria": "LT",
+                "expression": "MIN",
+                "metadata": [
+                    {
+                        "name": "user-facing",
+                        "value": "Crimson"
+                    },
+                    {
+                        "name": "throughput",
+                        "value": "Red"
+                    },
+                    {
+                        "name": "Face to face",
+                        "value": "Purple"
+                    }
+                ],
+                "propertyRef": {
+                    "oid": 1,
+                    "name": "Self-enabling",
+                    "description": "Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat. Curabitur gravida nisi at nibh.",
+                    "value": "701d9292339adde25b21f1d24d8b43032f0d1545",
+                    "type": "number"
+                }
+            },
+            {
+                "oid": 50,
+                "name": "encryption",
+                "description": "Praesent lectus. Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.",
+                "displayFormat": "%f",
+                "isCalculated": true,
+                "criteria": "LT",
+                "expression": "MIN",
+                "metadata": [
+                    {
+                        "name": "time-frame",
+                        "value": "Maroon"
+                    },
+                    {
+                        "name": "hub",
+                        "value": "Puce"
+                    },
+                    {
+                        "name": "adapter",
+                        "value": "Purple"
+                    }
+                ],
+                "propertyRef": {
+                    "oid": 1,
+                    "name": "multi-state",
+                    "description": "Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus. Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam. Nam tristique tortor eu pede.",
+                    "value": "0a2b1ff5a7766d688a3c16f15b21cf0a264fe67a",
+                    "type": "picklist"
+                }
+            }
+        ]
+    }
+]

@@ -3,10 +3,22 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <RootNamespace>DM.GraphQlDemo</RootNamespace>
+    <StartupObject>DM.GraphQlDemo.Program</StartupObject>
   </PropertyGroup>
 
   <ItemGroup>
     <Compile Remove="Controllers\WeatherForecastController.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="Data\columns.json" />
+    <Content Remove="Data\metadata.json" />
+    <Content Remove="Data\properties.json" />
+    <Content Remove="Data\reports.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Data\reports.json" />
   </ItemGroup>
 
   <ItemGroup>
